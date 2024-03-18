@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pixel 1",
+            "type": "dart",
+            "request": "launch",
+            "deviceId": "emulator-5554",
+            "program": "dev/lib/main.dart"
+        },
+        {
+            "name": "Pixel 2",
+            "type": "dart",
+            "request": "launch",
+            "deviceId": "emulator-5556",
+            "program": "dev/lib/main.dart"
+        },
+        {
+            "name": "dev",
+            "cwd": "dev",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dev (profile mode)",
+            "cwd": "dev",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dev (release mode)",
+            "cwd": "dev",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
